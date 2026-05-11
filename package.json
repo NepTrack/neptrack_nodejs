@@ -1,7 +1,10 @@
 {
-  "name": "neptrack_nodejs",
+  "name": "@neptrack/core",
   "version": "0.2.0",
   "description": "Node.js SDK for the NepTrack GPS tracking platform — REST API + real-time Data Stream.",
+  "publishConfig": {
+    "access": "public"
+  },
   "keywords": [
     "neptrack",
     "gps",

@@ -1,4 +1,4 @@
-# neptrack_nodejs
+# @neptrack/core
 
 Node.js SDK for the [NepTrack](https://neptrack.com) GPS tracking platform — REST API + real-time Data Stream.
 
@@ -9,7 +9,7 @@ Written in TypeScript, ships ESM + CommonJS builds with type definitions.
 ## Install
 
 ```bash
-npm install neptrack_nodejs
+npm install @neptrack/core
 ```
 
 Requires Node.js **>= 18** (native `fetch` / `AbortController`).
@@ -21,7 +21,7 @@ Generate an API token from the dashboard under **API Integration → API Tokens*
 ## Quick start
 
 ```ts
-import { NeptrackClient } from 'neptrack_nodejs';
+import { NeptrackClient } from '@neptrack/core';
 
 const client = new NeptrackClient({ token: 'npt_...' });
 
@@ -50,7 +50,7 @@ for (const v of vehicles) {
 and `motion` events. Token must include the **`live_stream`** scope.
 
 ```ts
-import { NeptrackStreamClient } from 'neptrack_nodejs';
+import { NeptrackStreamClient } from '@neptrack/core';
 
 const stream = new NeptrackStreamClient({
   url:   'wss://...',  // ask NepTrack support for your stream endpoint

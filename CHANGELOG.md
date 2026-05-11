@@ -1,8 +1,9 @@
 # Changelog
 
-## 0.2.0 — 2026-05-11
+## 0.2.0 — 2026-05-12
 
-Initial release. Feature parity with `neptrack_core` (Dart SDK) v0.2.0.
+Initial release as `@neptrack/core`. Feature parity with `neptrack_core`
+(Dart SDK) v0.2.1.
 
 ### Added
 - `NeptrackClient` — typed REST client covering vehicles, vehicle detail,
